@@ -1,0 +1,33 @@
+{
+  "name": "Email Templates",
+  "homepage": "http://goexploring.today/Email-Templates",
+  "authors": [
+    "hamlim <hamlim@rpi.edu>"
+  ],
+  "description": "A simple resource for all kinds of email templates",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Email",
+    "templates",
+    "templates",
+    "responsive",
+    "email",
+    "templates",
+    "beautiful",
+    "email",
+    "templates"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "furtive": "~2.2.3"
+  }
+}
