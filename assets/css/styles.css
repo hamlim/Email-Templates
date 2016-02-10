@@ -2,7 +2,7 @@
     font-family: "Roboto", sans-serif;
 }
 .header {
-    background-color: #DDDDDD;
+    /*background-color: #DDDDDD;*/
     height: 300px;
 }
 .headerNav {
@@ -15,7 +15,10 @@
 }
 .headerNav__link--navLink {
     text-decoration: none;
-    color: #39CCCC;
+    color: white;
+}
+.headerNav__link--navLink:hover {
+    color: #AAAAAA;
 }
 
 .main--bg-silver {
