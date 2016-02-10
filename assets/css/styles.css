@@ -1,0 +1,35 @@
+.header {
+    background-color: #DDDDDD;
+    height: 300px;
+}
+.headerNav {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    line-height: 100px;
+    vertical-align: middle;
+}
+.headerNav__list--noStyle {
+    list-style: none;
+}
+.headerNav__link--navLink {
+    text-decoration: none;
+    color: #39CCCC;
+}
+
+.main--bg-silver {
+    background-color: #DDDDDD;
+}
+
+
+.main__useSection {
+
+}
+
+.footer {
+    background-color: #DDDDDD;
+    height: 50px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
