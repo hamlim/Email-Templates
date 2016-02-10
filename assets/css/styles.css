@@ -1,8 +1,11 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+/*
+    Header
+*/
 .header {
-    /*background-color: #DDDDDD;*/
     height: 300px;
 }
 .headerNav {
@@ -10,9 +13,7 @@
     line-height: 100px;
     vertical-align: middle;
 }
-.headerNav__list--noStyle {
-    list-style: none;
-}
+
 .headerNav__link--navLink {
     text-decoration: none;
     color: white;
@@ -21,10 +22,9 @@
     color: #AAAAAA;
 }
 
-.main--bg-silver {
-    background-color: #DDDDDD;
-}
-
+/*
+    Main
+*/
 .main__useList {
     list-style: disc;
 }
@@ -44,11 +44,19 @@
 .main__header--bold {
     text-decoration-style: solid;
 }
-
+/*
+    Footer
+*/
 .footer {
-    background-color: #DDDDDD;
     height: 50px;
     line-height: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.footer__link {
+    color: white;
+}
+.footer__link:hover {
+    color: #DDDDDD;
 }
