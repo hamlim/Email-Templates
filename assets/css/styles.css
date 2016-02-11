@@ -60,6 +60,21 @@
     text-decoration-style: solid;
 }
 
+.main__input {
+    display: inline;
+    width: 15rem;
+    border: none;
+    border-bottom: 2px dashed #f39c12;
+    background: transparent;
+    color: #25ba84;
+}
+
+.main__input:focus {
+    border: none;
+    border-bottom: 2px solid #0074D9;
+    outline: none;
+}
+
 
 /*
     Handle wrapping of code
@@ -72,9 +87,13 @@
     word-wrap: break-word;
 }
 
-.main__pre--highlight {
-    color: #f39c12;
+.main__templateValue {
+    text-decoration: none;
 }
+
+/*.main__pre--highlight {
+    color: #f39c12;
+}*/
 
 /*
     Footer

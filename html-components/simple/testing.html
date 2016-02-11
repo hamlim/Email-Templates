@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../../assets/css/styles.css" />
 
         <!-- JS -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
         <script src="../../assets/js/main.js"></script>
     </head>
     <body>
@@ -33,19 +34,37 @@
                 <article class="1/2 grid__cell grid__cell--center">
                     <pre class="main__pre">
                         <code class="language-text ">
-Dear <span class="main__pre--highlight">{{recipient_name_here}}</span>,
+Dear <span class="main__pre--highlight"><input class="main__input" type="text" placeholder="recipient_name_here" id="recipient-name" /></span>,
 
-<span class="main__pre--wrap">Thank you for offering this template for me because I really needed it. I am extremely interested in the opportunity you are providing me and would love to learn more. Please email me at <span class="highlight">{{your_email_address_here}}</span>, and I will get back to you as soon as I can.</span>
+<span class="main__pre--wrap">Thank you for offering this template for me because I really needed it. I am extremely interested in the opportunity you are providing me and would love to learn more. Please email me at  <span class="highlight"><input class="main__input main__input-email" id="recipient-email" type="text" placeholder="your_email_here" /></span>, and I will get back to you as soon as I can.</span>
 
 Thanks,
-<span class="main__pre--highlight">{{your_name_here}}</span>
-<span class="main__pre--highlight">{{your_website_here}}</span>
-<span class="main__pre--highlight">{{your_twitter_handle_here}}</span>
+<span class="main__pre--highlight"><input class="main__input" type="text" placeholder="your_name_here" id="your-name" /></span>
+<span class="main__pre--highlight"><input class="main__input main__input-link" type="text" placeholder="your_website_here" id="your-website" /></span>
+<span class="main__pre--highlight">@<input class="main__input main__input-twitter" type="text" placeholder="twitter username" id="your-twitter" /></span>
                         </code>
                     </pre>
                 </article>
+                <article class="measure p2">
+                    <h2 class="main__header--bold main__header--underline">Output:</h2>
+                    <p class="light">
+                        Here is your compiled template, make sure to copy and paste it into your email application.
+                    </p>
+                </article>
                 <article class="1/2 grid__cell grid__cell--center">
+                    <pre class="main__templateOutput main__pre">
+                        <code class="language-text">
+Dear <span class="main__pre--highlight"><ins class="main__templateValue" id="recipient-name-val"></ins></span>,
 
+<span class="main__pre--wrap">Thank you for offering this template for me because I really needed it. I am extremely interested in the opportunity you are providing me and would love to learn more. Please email me at <span class="main__pre--highlight"><ins class="main__templateValue" id="recipient-email-val"></ins></span>, and I will get back to you as soon as I can.</span>
+
+Thanks,
+
+<span class="main__pre--highlight"><ins class="main__templateValue" id="your-name-val" /></span>
+<span class="main__pre--highlight"><ins class="main__templateValue" id="your-website-val" /></span>
+<span class="main__pre--highlight"><ins class="main__templateValue" id="your-twitter-val" /></span>
+                        </code>
+                    </pre>
                 </article>
             </section>
         </main>
