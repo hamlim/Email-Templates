@@ -13,6 +13,21 @@
     line-height: 100px;
     vertical-align: middle;
 }
+/*
+    Smaller header components for sub pages
+*/
+.header--small {
+    height: 100px;
+}
+.headerNav--small {
+    height: 100%;
+    line-height: 50px;
+}
+.headerNav__title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0px 0px;
+}
 
 .headerNav__link--navLink {
     text-decoration: none;
