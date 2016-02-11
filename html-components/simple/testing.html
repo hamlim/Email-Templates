@@ -6,6 +6,8 @@
         <!-- CSS -->
         <link rel="stylesheet" href="../../assets/css/reset.css" />
         <link rel="stylesheet" href="../../bower_components/furtive/css/furtive.css" />
+        <link rel="stylesheet" href="../../assets/css/avalanche.css" />
+        <link rel="stylesheet" href="../../assets/css/prism.css" />
         <link rel="stylesheet" href="../../assets/css/styles.css" />
 
         <!-- JS -->
@@ -18,12 +20,32 @@
             </nav>
         </header>
         <main class="">
-            <section class="bg--light-gray">
+            <section class="bg--white">
                 <article class="main__header measure p2">
                     <h2>Testing Template</h2>
                     <p>
-                        This template is best used for testing the build of the website. This is what the 
+                        This template is best used for testing the build of the website. This is what the template pages will probably look like initially. This text
+                        is where we will describe the templates to people.
                     </p>
+                </article>
+            </section>
+            <section class="bg--white grid">
+                <article class="1/2 grid__cell grid__cell--center">
+                    <pre class="main__pre">
+                        <code class="language-text ">
+Dear <span class="main__pre--highlight">{{recipient_name_here}}</span>,
+
+<span class="main__pre--wrap">Thank you for offering this template for me because I really needed it. I am extremely interested in the opportunity you are providing me and would love to learn more. Please email me at <span class="highlight">{{your_email_address_here}}</span>, and I will get back to you as soon as I can.</span>
+
+Thanks,
+<span class="main__pre--highlight">{{your_name_here}}</span>
+<span class="main__pre--highlight">{{your_website_here}}</span>
+<span class="main__pre--highlight">{{your_twitter_handle_here}}</span>
+                        </code>
+                    </pre>
+                </article>
+                <article class="1/2 grid__cell grid__cell--center">
+
                 </article>
             </section>
         </main>
@@ -38,5 +60,7 @@
                 </div>
             </section>
         </footer>
+
+        <script src="../../assets/js/prism.js"></script>
     </body>
 </html>

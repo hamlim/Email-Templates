@@ -59,6 +59,23 @@
 .main__header--bold {
     text-decoration-style: solid;
 }
+
+
+/*
+    Handle wrapping of code
+*/
+.main__pre {
+
+}
+.main__pre--wrap {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.main__pre--highlight {
+    color: #f39c12;
+}
+
 /*
     Footer
 */
