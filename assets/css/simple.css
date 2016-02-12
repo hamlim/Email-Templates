@@ -17,7 +17,7 @@
 .cell__border {
     box-shadow: 2px 2px 10px #AAAAAA, 0px -2px 10px #AAAAAA;
     margin-bottom: 15px;
-    height: 12rem;
+    min-height: 15rem;
     background-color: white;
     transition: background-color 1s;
 }
@@ -36,4 +36,7 @@
 }
 .cell__border:hover {
     background-color: #7FDBFF
+}
+.cell__title {
+    text-decoration: underline;
 }
