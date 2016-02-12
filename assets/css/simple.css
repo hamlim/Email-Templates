@@ -1,0 +1,39 @@
+.header {
+    min-height: 200px;
+}
+
+.header__nav {
+    padding-top: 30px;
+}
+
+.link--nolink {
+    text-decoration: none;
+    color: white;
+}
+.link--nolink:hover {
+    color: #AAAAAA;
+}
+
+.cell__border {
+    box-shadow: 2px 2px 10px #AAAAAA, 0px -2px 10px #AAAAAA;
+    margin-bottom: 15px;
+    height: 12rem;
+    background-color: white;
+    transition: background-color 1s;
+}
+
+.grid__title {
+    text-decoration: underline;
+}
+
+.grid__link {
+    text-decoration: none;
+    color: black;
+}
+.grid__link:hover {
+    text-decoration: none;
+    color: black;
+}
+.cell__border:hover {
+    background-color: #7FDBFF
+}
